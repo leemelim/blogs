@@ -4,13 +4,13 @@ title: "ELK Stack Dashboard Improvements for JSON Logging and the Logstash Colle
 categories: blog
 author_picture: https://avatars3.githubusercontent.com/leemelim
 author_github: https://github.com/leemelim
-seo-title: ELK Stack Dashboard Improvements for JSON Logging and the Logstash Collector version 1.0 - OpenLiberty.io
-seo-description: Start Open Liberty with JSON Logging or Logstash Collector feature. Analyze log events of your Liberty servers using dashboards for ELK stack.
-blog_description: "Start Open Liberty with JSON Logging or Logstash Collector feature. Analyze log events of your Liberty servers using dashboards for ELK stack."
 additional_authors: 
  - name: Ellen Lau
    github: https://github.com/ellen-lau
    image: https://avatars3.githubusercontent.com/u/28316667
+seo-title: ELK Stack Dashboard Improvements for JSON Logging and the Logstash Collector version 1.0 - OpenLiberty.io
+seo-description: Start Open Liberty with JSON Logging or Logstash Collector feature. Analyze log events of your Liberty servers using dashboards for ELK stack.
+blog_description: "Start Open Liberty with JSON Logging or Logstash Collector feature. Analyze log events of your Liberty servers using dashboards for ELK stack."
 ---
 = ELK Stack Dashboard Improvements for JSON Logging and the Logstash Collector version 1.0
 Halim Lee <https://github.com/leemelim>
@@ -42,7 +42,7 @@ image::/img/blog/ELK_dashboard_memory1.png[Memory Dashboard, align="left"]
 The Memory dashboard using the Logstash Collector feature has two new visualizations, Liberty Slow GC and Liberty Slow GC Count, which respectively allow you to view when garbage collection is occurring, and the counts of garbage collection times ranging from 1 to 5 seconds, 5 to 10 seconds, and greater than 10 seconds. This allows you to easily see whether or not your Liberty Server garbage collection is slow overall, and when slower garbage collection is happening during your server’s runtime.
 
 
-=== Problem Dashboard:
+=== Problem Dashboard
 
 image::/img/blog/ELK_dashboard_problem1.png[Problem Dashboard Top, align="left"]
 
@@ -51,7 +51,7 @@ image::/img/blog/ELK_dashboard_problem2.png[Problem Dashboard Bottom, align="lef
 The Problem dashboards now include a new visualization, Liberty Potential Problem Count, which displays the counts of problematic logs in order of log level/severity. The numbers help you see how many potential problems have occurred. Both Liberty Message and Liberty Trace graphs are filtered by log levels/severity and you can easily grasp how healthy your server is running.
 
 
-=== Traffic Dashboard:
+=== Traffic Dashboard
 
 image::/img/blog/ELK_dashboard_traffic1.png[Traffic Dashboard Top, align="left"]
 
