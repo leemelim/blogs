@@ -29,7 +29,6 @@ Follow https://www.ibm.com/support/knowledgecenter/SSD28V_liberty/com.ibm.websph
 
 == Kibana Dashboards
 
-[horizontal]
 JSON Logging dashboards:: Audit, Problems, Traffic
 Logstash Collector dashboards:: Audit, Memory, Problems, Traffic
 
