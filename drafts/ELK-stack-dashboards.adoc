@@ -36,7 +36,7 @@ The main additions to the Memory, Problems and Traffic dashboards are new visual
 
 === Memory Dashboard
 
-image::/img/blog/ELK_dashboard_memory1.png[Memory Dashboard, align="left"]
+image::/img/blog/ELK_dashboard_memory.png[Memory Dashboard, align="left"]
 
 The Memory dashboard using the Logstash Collector feature has two new visualizations, Liberty Slow GC and Liberty Slow GC Count, which respectively allow you to view when garbage collection is occurring, and the counts of garbage collection times ranging from 1 to 5 seconds, 5 to 10 seconds, and greater than 10 seconds. This allows you to easily see whether or not your Liberty Server garbage collection is slow overall, and when slower garbage collection is happening during your server’s runtime.
 
