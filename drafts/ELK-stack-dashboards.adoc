@@ -12,7 +12,6 @@ additional_authors:
    github: https://github.com/ellen-lau
    image: https://avatars3.githubusercontent.com/u/28316667
 ---
----
 = ELK Stack Dashboard Improvements for JSON Logging and the Logstash Collector version 1.0
 Halim Lee <https://github.com/leemelim>
 
