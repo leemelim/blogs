@@ -16,6 +16,7 @@ blog_description: "Start Open Liberty with JSON Logging or Logstash Collector fe
 Halim Lee <https://github.com/leemelim>
 
 Log aggregation and analysis are essential in order to monitor and quickly troubleshoot problems in your server. Elastic Stack is a widely used set of tools to aggregate and analyze the log events. You can use our sample Kibana dashboards for Liberty with logstashCollector-1.0 feature or with the logs from JSON logging and interact with your log data.
+
 * https://github.com/WASdev/sample.logstash.collector[Sample dashboards (logstashCollector-1.0)]
 * https://github.com/WASdev/sample.dashboards[Sample dashboards (JSON logging)]
 
