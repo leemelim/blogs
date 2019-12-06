@@ -33,7 +33,7 @@ Follow https://www.ibm.com/support/knowledgecenter/SSAW57_liberty/com.ibm.websph
 
 == Kibana dashboards
 
-There are 4 sample Logstash collector dashboards: Audit, Memory, Problems and Traffic, and 3 sample JSON logging dashboards: Audit, Problems and Traffic. A dashboard is a collection visualizations and it provides real-time information at a glance. A type of log event or logging message source is used to categorize the visualizations into different dashboards. Types of log events or logging message sources are the following: audit, garbage collection, message, trace, FFDC and access.
+There are 4 sample Logstash collector dashboards: Audit, Memory, Problems and Traffic, and 3 sample JSON logging dashboards: Audit, Problems and Traffic. A dashboard is a collection of visualizations and it provides real-time information at a glance. A type of log event or logging message source is used to categorize the visualizations into different dashboards. Types of log events or logging message sources are the following: audit, garbage collection, message, trace, FFDC and access.
 
 The main additions to the Memory, Problems and Traffic dashboards are new visualizations that improve the way you can immediately see possible errors occurring in your Liberty servers.
 
